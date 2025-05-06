@@ -38,6 +38,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -174,6 +175,20 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Projeto Matematico";
             // 
+            // radioButton7
+            // 
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton7.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton7.ForeColor = System.Drawing.Color.Chartreuse;
+            this.radioButton7.Location = new System.Drawing.Point(65, 184);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.Size = new System.Drawing.Size(81, 25);
+            this.radioButton7.TabIndex = 11;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "DOBRO";
+            this.radioButton7.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -181,6 +196,7 @@
             this.BackgroundImage = global::Projeto_Matematico.Properties.Resources.holograma_cerebral_poligonal_verde_abstrato_ai_e_conceito_de_aprendizado_de_maquina_3d_rendering_670;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1006, 565);
+            this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.radioButton9);
@@ -211,6 +227,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.RadioButton radioButton7;
     }
 }
 
