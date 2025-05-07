@@ -39,6 +39,7 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // radioButton1
@@ -189,6 +190,20 @@
             this.radioButton7.Text = "DOBRO";
             this.radioButton7.UseVisualStyleBackColor = false;
             // 
+            // radioButton10
+            // 
+            this.radioButton10.AutoSize = true;
+            this.radioButton10.BackColor = System.Drawing.Color.Transparent;
+            this.radioButton10.Font = new System.Drawing.Font("Microsoft Himalaya", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton10.ForeColor = System.Drawing.Color.Chartreuse;
+            this.radioButton10.Location = new System.Drawing.Point(65, 230);
+            this.radioButton10.Name = "radioButton10";
+            this.radioButton10.Size = new System.Drawing.Size(81, 25);
+            this.radioButton10.TabIndex = 12;
+            this.radioButton10.TabStop = true;
+            this.radioButton10.Text = "DOBRO";
+            this.radioButton10.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -196,6 +211,7 @@
             this.BackgroundImage = global::Projeto_Matematico.Properties.Resources.holograma_cerebral_poligonal_verde_abstrato_ai_e_conceito_de_aprendizado_de_maquina_3d_rendering_670;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1006, 565);
+            this.Controls.Add(this.radioButton10);
             this.Controls.Add(this.radioButton7);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
@@ -228,6 +244,7 @@
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton10;
     }
 }
 
